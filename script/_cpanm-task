@@ -1,0 +1,19 @@
+#!perl
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
+# NO_PERINCI_CMDLINE_SCRIPT
+# FRAGMENT id=shcompgen-hint completer=1 for=cpanm-task
+
+use 5.010001;
+use strict;
+use warnings;
+use App::ShellCompleter::cpanm;
+
+App::ShellCompleter::cpanm::run_completer(mod_prefix=>"Task::");
+
+# ABSTRACT: Shell completer for cpanm-task
+# PODNAME:
